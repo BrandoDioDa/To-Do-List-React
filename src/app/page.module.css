@@ -1,4 +1,5 @@
 .main {
+  background-color: azure;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
