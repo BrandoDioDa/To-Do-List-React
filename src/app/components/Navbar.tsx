@@ -5,7 +5,8 @@ const Navbar = () => {
     return (
     <nav className='navbar fixed-top flex-container'>
         <div className="container-fluid">
-            <span className="navbar-brand mb-0 h1">Navbar</span>
+            {/* Logo below is a placeholder */}
+            <span className="navbar-brand mb-0"><img className={style.logo} src="/icon.ico"/></span> 
         </div>
     </nav>
     );

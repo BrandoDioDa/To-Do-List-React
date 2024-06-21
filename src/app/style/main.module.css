@@ -1,3 +1,16 @@
 .navbar-color {
     background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(357.48deg, #FE0707 2.99%, #C51004 26.76%, #890202 50.54%, #6D0202 74.31%, #3F0101 98.08%);
 }
+
+.logo {
+    text-align: center;
+    border-radius: 50%;
+
+    /* animation for logo - 3 second spin */
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
+}

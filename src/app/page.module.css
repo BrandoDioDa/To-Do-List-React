@@ -1,14 +1,13 @@
 .main {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(357.48deg, #FE0707 2.99%, #C51004 26.76%, #890202 50.54%, #6D0202 74.31%, #3F0101 98.08%);
+  background: blanchedalmond;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 200vh;
+  
 }
-/* Screen */
-
 
 .description {
   display: inherit;
