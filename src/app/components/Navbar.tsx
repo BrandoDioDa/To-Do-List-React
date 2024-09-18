@@ -1,29 +1,30 @@
 import React, {useState, useEffect} from "react";
-import style from '../style/main.module.css';
+import style from '../style/navbar.module.css';
 
 const Navbar = () => {
     return (
-    <nav className='navbar navbar-expand-lg fixed-top flex-container'>
-        <div className="container-fluid">
-            {/* Logo below is a placeholder */}
-            <span className="navbar-brand mb-0">
-                <img className={style.logo} src="/icon.ico"/>
-            </span> 
-            <div className="collapse navbar-collapse" id="navbarNav"> 
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled" href="#" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
+    <div className="container fixed-top">
+        <span className="navbar-brand mb-0">
+            <img className={style.logo} src="/icon.ico"/>
+        </span> 
+        <nav className='navbar navbar-expand-lg '>
+            <div className="container-fluid">
+                <div className="collapse navbar-collapse row" id="navbarNav"> 
+                    <ul className="navbar-nav">
+                        <li className={`${style.navText} nav-item col`}>
+                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li className={`${style.navText} nav-item col`}>
+                            <a className="nav-link" href="#">Resume</a>
+                        </li>
+                        <li className={`${style.navText} nav-item col`}>
+                            <a className="nav-link" href="#" aria-disabled="true">Projects</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     );
 };
 export default Navbar;

@@ -1,7 +1,7 @@
 'use client'
 
 import React, {useState, useEffect} from "react";
-import style from '../style/main.module.css';
+import style from '../style/footer.module.css';
 
 const Footer = () => {
     return(

@@ -1,0 +1,27 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+}
+  
+.footer-container a {
+    color: black !important;
+    text-decoration: none;
+    font-weight: bold;
+    
+    &:hover {
+      color: #45405f;
+    }
+}
+  
+  .footer-container ul {
+    display: flex;
+    padding: 0;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.hide {
+    display: none;
+}
