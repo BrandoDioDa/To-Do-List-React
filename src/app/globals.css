@@ -79,13 +79,22 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'LBPFont';
+  src: url('./font/eigerdals-heavy-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
+  font-family: 'LBPFont';
   max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
+  font-family: 'LBPFont';
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
