@@ -21,16 +21,16 @@ export default function RootLayout({
 }) {
   return (
     <>
-     <html lang="en">
-      <body>
-        <main>
-          <Navbar/>
-          {children}
-          <Footer/>
-          <BootstrapClient/>
-        </main>
-      </body>
-     </html>
+      <html lang="en">
+        <body>
+          <main>
+            <Navbar />
+            {children}
+            <Footer />
+            <BootstrapClient />
+          </main>
+        </body>
+      </html>
     </>
   )
 }

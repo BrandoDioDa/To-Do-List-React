@@ -11,13 +11,16 @@
 }
 
 .navLinks {
-    display: flex;
+    display: inline-block;
     list-style: none;
+    margin: auto;
+    width: 200px;
 }
 
-.navLinks li {
+.col {
+    display: inline;
+    font-size: 24px;
     text-align: center;
-    font-size: 28px;
 }
 
 .navLinks li:hover {
