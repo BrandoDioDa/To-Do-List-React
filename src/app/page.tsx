@@ -11,7 +11,7 @@ export default function Home() {
         <main className={styles.main}>
           <section className={styles.content}>
             <div className={styles.headshot}>
-              <Image src={profilePic} alt="Picture of Brandon"/>
+              <Image src={profilePic} alt="Picture of Brandon" priority={true}/>
             </div>
             <div className={styles.introduction}>
               <h1>Welcome to my Website Portfolio</h1>

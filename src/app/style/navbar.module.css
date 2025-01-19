@@ -1,3 +1,11 @@
+.col {
+    flex: 1;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    width: auto;
+}
+
 .logo {
     text-align: center;
     border-radius: 50%;
@@ -7,21 +15,24 @@
 }
 
 .navbarColor {
-    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(357.48deg, #FE0707 2.99%, #C51004 26.76%, #890202 50.54%, #6D0202 74.31%, #3F0101 98.08%) !important; 
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(357.48deg, #FE0707 2.99%, #C51004 26.76%, #890202 50.54%, #6D0202 74.31%, #3F0101 98.08%) !important;
 }
 
 .navLinks {
     display: flex;
-    list-style: none;
-}
-
-.navLinks li {
-    text-align: center;
-    font-size: 28px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    width: 50%;
 }
 
 .navLinks li:hover {
     color: white;
+}
+
+.titlePosition {
+    padding: 10px;
+    margin: .5em;
 }
 
 .navbar-toggler {
@@ -48,6 +59,11 @@
 }
 
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(359deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
 }
